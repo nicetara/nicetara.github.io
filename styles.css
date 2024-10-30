@@ -49,6 +49,6 @@ footer {
 }
 
 .carousel img {
-    width: 100%;
+    width: 50%;
     transition: transform 0.5s ease-in-out;
 }

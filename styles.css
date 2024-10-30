@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background-color: #C5E3DB; /* Seafoam green */
+    background-color: #C5E3DB;
     color: white;
     padding: 1em 0;
     text-align: center;
@@ -33,7 +33,7 @@ main {
 }
 
 footer {
-    background-color: #C5E3DB; /* Seafoam green */
+    background-color: #C5E3DB;
     color: white;
     text-align: center;
     padding: 1em 0;

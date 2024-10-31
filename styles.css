@@ -24,7 +24,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: #635A57;
     text-decoration: none;
 }
 
@@ -39,7 +39,7 @@ h2 {
 
 footer {
     background-color: #C5E3DB;
-    color: white;
+    color: #635a57;
     text-align: center;
     padding: 1em 0;
     position: fixed;

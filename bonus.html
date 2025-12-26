@@ -65,11 +65,11 @@
             width: 100%;
         }
         
-:focus-visible {
+/*:focus-visible {
       outline: 3px solid #ff7f50 !important; /* coral color */
       outline-offset: 3px;
       box-shadow: 0 0 0 4px rgba(255,127,80,0.25);
-    }
+    }*/
 
     </style>
    <script>
@@ -82,6 +82,8 @@
 
 cxone('init', '5157');
 cxone('guide','init');
+       cxone('guide','setCustomCss', '[data-selector="GUIDE_CHANNEL_ICON"]:focus-visible {outline: 3px solid #ff7f50 !important;}');
+
 </script>
 </head>
 <body>

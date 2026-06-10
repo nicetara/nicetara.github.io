@@ -15,6 +15,11 @@ document.head.appendChild(e)
 
 cxone('init', '5157');
 cxone('guide','init');
+     // Move the button up
+cxone('guide', 'setOffsetY', '350px');
+
+// Also move the Guide window itself using GUIDE_FRAME_CONTENT
+cxone('guide', 'setCustomCss', '[data-selector="GUIDE_FRAME_CONTENT"] { bottom: 350px !important; }');
        </script>
 </head>
 <body>

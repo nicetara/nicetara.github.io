@@ -15,11 +15,14 @@ document.head.appendChild(e)
 
 cxone('init', '5157');
 cxone('guide','init');
-     // Move the button up
-cxone('guide', 'setOffsetY', '350px');
+ 
+const isSmallScreen = window.matchMedia("(max-width: 768px)").matches;
+const isMobileUA = /Android|iPhone|iPad|iPod|Mobile/i.test(navigator.userAgent);
 
-// Also move the Guide window itself using GUIDE_FRAME_CONTENT
-cxone('guide', 'setCustomCss', '[data-selector="GUIDE_FRAME_CONTENT"] { bottom: 350px !important; }');
+if (isSmallScreen || isMobileUA) {
+  cxone('guide', 'setOffsetY', '350px');
+}
+
        </script>
 </head>
 <body>

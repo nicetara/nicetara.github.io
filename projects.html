@@ -5,17 +5,112 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projects - North Head Test</title>
     <link rel="stylesheet" href="styles.css">
- <script>
+
+
+
+<script>
+
 (function(n,u){
+
 window.CXoneDfo=n,
+
 window[n]=window[n]||function(){(window[n].q=window[n].q||[]).push(arguments)},window[n].u=u,
+
 e=document.createElement("script"),e.type="module",e.src=u+"?"+Math.round(Date.now()/1e3/3600),
+
 document.head.appendChild(e)
+
 })('cxone','https://web-modules-de-na1.niceincontact.com/loader/1/loader.js');
 
+
 cxone('init', '5157');
+
 cxone('guide','init');
-       </script>
+
+
+//SetCustomCSS
+
+cxone('guide', 'setCustomCss', `
+
+[class^="header svelte"],
+
+[data-selector="HEADER"] {
+
+
+font-family: trajan-sans-pro, sans-serif;
+
+background-color: #41693d !important;
+
+color: #ffffff !important;
+
+font-size: 1.125em;
+
+
+}
+
+
+[data-selector="BEGIN_CHAT"] {
+
+background-color: #41693d !important;
+
+color: #ffffff !important;
+
+}
+
+
+[data-selector="GUIDE_SINGLE_MENU_CLOSE_BUTTON"] {
+
+background-color: #41693d !important;
+
+color: #ffffff !important;
+
+}
+
+
+[class^="Header_Header"] {
+
+background-color: #41693d !important;
+
+color: #ffffff !important;
+
+}
+
+
+[data-selector="CUSTOMER_MESSAGE"] {
+
+color: #ffffff !important;
+
+}
+
+
+[class^="Button_Button"] {
+
+background-color: #41693d !important;
+
+color: #ffffff !important;
+
+}
+
+
+[data-selector="HEADER_MINIMIZE_WINDOW"] svg,
+
+[data-selector="HEADER_ACTION_MENU_BUTTON"] svg {
+
+fill: #fff !important;
+
+color: #fff !important;
+
+}
+
+
+`);
+
+
+</script>
+
+
+    
+
 </head>
 <body>
     <header>
